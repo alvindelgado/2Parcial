@@ -1,5 +1,5 @@
 import React from 'react'
-
+import cuadra from "../assets/Vector.svg"
 function Moleculas(props) {
     const back="Moleculas "+ props.back
   return (
@@ -16,7 +16,7 @@ function Moleculas(props) {
         <div class="Cardt-3">
             <span>SAAS-0000</span>
         </div>
-        <img></img>
+        <img src={cuadra} alt="" />
     </div>
 
 </div>
