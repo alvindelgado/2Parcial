@@ -1,12 +1,13 @@
 import '../styles/App.css';
 import { Organismo } from "./Organismo";
+import matriz from '../matriz/matriz';
 
 function App() {
     return ( 
         <> 
-         <Organismo back="r" />
-         <Organismo back="v" />
-         <Organismo back="g" />
+         <Organismo back={matriz[0].theme}/>
+         <Organismo back={matriz[1].theme} />
+         <Organismo back={matriz[2].theme} />
         
         </>
      
