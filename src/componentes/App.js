@@ -6,6 +6,7 @@ function App() {
         <> 
          <Organismo back="r" />
          <Organismo back="v" />
+         <Organismo back="g" />
         
         </>
      
