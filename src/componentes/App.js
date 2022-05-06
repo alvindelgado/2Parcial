@@ -5,8 +5,8 @@ function App() {
     return ( 
         <> 
          <Organismo back="r" />
-        <Organismo  back="v"/>
-        <Organismo  back="g"/>
+         <Organismo back="v" />
+        
         </>
      
     );
